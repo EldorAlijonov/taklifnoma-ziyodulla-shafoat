@@ -1087,39 +1087,21 @@ function translateRsvpSection(lang) {
 document.addEventListener('DOMContentLoaded', () => {
     const footerTrigger = document.querySelector('.footer-names');
     const guestSection = document.getElementById('guests123');
-    
-    let clickCount = 0;
-    let lastClickTime = 0;
 
     const PASSWORD = "0606"; // ← задай свой пароль
 
     if (footerTrigger && guestSection) {
         footerTrigger.addEventListener('click', () => {
-            const currentTime = new Date().getTime();
-            
-            if (currentTime - lastClickTime > 1500) {
-                clickCount = 0;
-            }
-            
-            clickCount++;
-            lastClickTime = currentTime;
+            const userPassword = prompt("Admin panel parolini kiriting:");
 
-            if (clickCount === 3) {
-                
-                const userPassword = prompt("Parolni kiriting:");
-
-                if (userPassword === PASSWORD) {
-                    // переключение видимости
-                    if (guestSection.style.display === 'block') {
-                        guestSection.style.display = 'none';
-                    } else {
-                        guestSection.style.display = 'block';
-                    }
-                } else {
-                    alert("Parol noto‘g‘ri ❌");
+            if (userPassword === PASSWORD) {
+                const isVisible = window.getComputedStyle(guestSection).display !== 'none';
+                guestSection.style.display = isVisible ? 'none' : 'block';
+                if (!isVisible) {
+                    guestSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
-
-                clickCount = 0;
+            } else if (userPassword !== null) {
+                alert("Parol noto‘g‘ri");
             }
         });
     }
