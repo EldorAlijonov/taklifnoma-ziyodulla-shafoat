@@ -396,7 +396,7 @@ function escapeHtml(str) {
 
 // ========== TIMER ==========
 function updateLuxuryTimer() {
-    const targetDate = new Date(2026, 7, 7, 14, 0, 0);
+    const targetDate = new Date(2026, 5, 6, 14, 0, 0);
     const now = new Date();
     const diff = targetDate - now;
     
@@ -489,7 +489,7 @@ langBtns.forEach(btn => {
                 instruction: 'Нажмите на замок,', 
                 instruction1: 'чтобы открыть приглашение',
                 heros1: 'Приглашение на свадьбу',
-                heros2: '7 август 2026 | 14:00',
+                heros2: '6 июнь 2026 | 14:00',
                 herodate: '«И Он соединил их сердца» Аль-Анфаль, 63',
                 timerlabel: 'ВРЕМЯ ДО СВАДЬБЫ',
                 unit11: 'дней',
@@ -501,7 +501,7 @@ langBtns.forEach(btn => {
                 quote11: 'Мы хотим отпраздновать этот дорогой для нас день вместе с вами. Будем искренне рады, если вы разделите с нами нашу радость.',
                 cal11: 'СЧИТАННЫЕ ДНИ',
                 cal22: 'Свадебный календарь',
-                cal33: 'АВГУСТ 2026',
+                cal33: 'ИЮНЬ 2026',
                 cale1: 'Пн',
                 cale2: 'Вт',
                 cale3: 'Ср',
@@ -516,7 +516,7 @@ langBtns.forEach(btn => {
                 detcd4: 'Ресторан «NURU-DUR», Ферганская область, Багдадский район, городской посёлок Дорманча, улица Буюк Ипак Йули',
                 detcd5: 'Открыть на карте →',
                 detcd6: 'Время',
-                detcd7: '7 август 2026 года, 14:00',
+                detcd7: '6 июнь 2026 года, 14:00',
                 detcd8: 'Двери открыты с 13:30',
                 detcd9: 'Дресс-код',
                 detcd10: 'Официальный, предпочтительны светлые тона',
@@ -555,7 +555,7 @@ langBtns.forEach(btn => {
                 share33: 'Поделитесь приглашением с близкими — они тоже приглашены на наш праздник!',
                 share44: 'Копировать',
                 share55: 'Ссылка скопирована!',
-                date11: '7 август 2026 | 14:00',
+                date11: '6 июнь 2026 | 14:00',
                 date22: 'Спасибо за то, что были с нами в этот самый прекрасный день!'
             },
             uz: { 
@@ -563,7 +563,7 @@ langBtns.forEach(btn => {
                 instruction: 'Qulfchani bosib,', 
                 instruction1: 'taklifnomani oching',
                 heros1: 'To‘yga taklifnoma',
-                heros2: '7-avgust 2026 | 14:00',
+                heros2: '6-iyun 2026 | 14:00',
                 herodate: '«Va U ularning qalblarini birlashtirdi» Al-Anfol, 63',
                 timerlabel: 'TO‘YGACHA QOLGAN VAQT',
                 unit11: 'kun',
@@ -575,7 +575,7 @@ langBtns.forEach(btn => {
                 quote11: 'Biz uchun aziz bo‘lgan ushbu kunni siz bilan birga nishonlashni istaymiz. Quvonchimizga sherik bo‘lishingizdan mamnun bo‘lamiz.',
                 cal11: 'SANALGAN KUNLAR',
                 cal22: 'To‘y kalendari',
-                cal33: 'AVGUST 2026',
+                cal33: 'IYUN 2026',
                 cale1: 'Du',
                 cale2: 'Se',
                 cale3: 'Ch',
@@ -590,7 +590,7 @@ langBtns.forEach(btn => {
                 detcd4: '«NURU-DUR» restorani, Fargʻona viloyati, Bagʻdod tumani, Dormancha shaharchasi, Buyuk ipak yoʻli koʻchasi',
                 detcd5: 'Xaritada ochish →',
                 detcd6: 'Vaqt',
-                detcd7: '2026-yil 7-avgust, soat 14:00',
+                detcd7: '2026-yil 6-iyun, soat 14:00',
                 detcd8: 'Eshiklar 13:30 dan ochiq',
                 detcd9: 'Kiyinish kodi',
                 detcd10: 'Rasmiy, afzal ko‘rang yorug‘ ranglar',
@@ -629,7 +629,7 @@ langBtns.forEach(btn => {
                 share33: 'Taklifnomani yaqinlaringizga ham ulashing — ular ham bizning bayramimizga taklif qilingan!',
                 share44: 'Nusxa olish',
                 share55: 'Havola nusxalandi!',
-                date11: '7-avgust 2026 | 14:00',
+                date11: '6-iyun 2026 | 14:00',
                 date22: 'Eng go‘zal kunda biz bilan birga bo‘lganingiz uchun tashakkur!'
             },
             uzk: { 
@@ -637,7 +637,7 @@ langBtns.forEach(btn => {
                 instruction: 'Қулфчани босиб,', 
                 instruction1: 'таклифномани очинг',
                 heros1: 'Тўйга таклифнома',
-                heros2: '7 август 2026 | 14:00',
+                heros2: '6 июнь 2026 | 14:00',
                 herodate: '«Ва У уларнинг қалбларини бирлаштирди» Ал-Анфал, 63',
                 timerlabel: 'ТЎЙГАЧА ҚОЛГАН ВАҚТ',
                 unit11: 'кун',
@@ -649,7 +649,7 @@ langBtns.forEach(btn => {
                 quote11: 'Биз учун азиз бўлган ушбу кунни сиз билан бирга нишонлашни истаймиз. Қувончимизга шерик бўлишингиздан мамнун бўламиз.',
                 cal11: 'САНОҚЛИ КУНЛАР',
                 cal22: 'Тўй календари',
-                cal33: 'АВГУСТ 2026',
+                cal33: 'ИЮНЬ 2026',
                 cale1: 'Ду',
                 cale2: 'Се',
                 cale3: 'Чо',
@@ -664,7 +664,7 @@ langBtns.forEach(btn => {
                 detcd4: '«NURU-DUR» ресторани, Фарғона вилояти, Бағдод тумани, Дорманча шаҳарчаси, Буюк ипак йўли кўчаси',
                 detcd5: 'Харитада очиш →',
                 detcd6: 'Вақт',
-                detcd7: '2026-йил 7-август, соат 14:00',
+                detcd7: '2026-йил 6-июнь, соат 14:00',
                 detcd8: 'Эшиклар 13:30 дан очиқ',
                 detcd9: 'Кийиниш коди',
                 detcd10: 'Расмий, ёруғ ранглар афзал',
@@ -703,7 +703,7 @@ langBtns.forEach(btn => {
                 share33: 'Таклифномани яқинларингизга ҳам улашинг — улар ҳам бизнинг байрамимизга таклиф қилинган!',
                 share44: 'Нусха олиш',
                 share55: 'Ҳавола нусхаланди!',
-                date11: '7 август 2026 | 14:00',
+                date11: '6 июнь 2026 | 14:00',
                 date22: 'Энг гўзал кунда биз билан бирга бўлганингиз учун ташаккур!'
             },
             en: { 
@@ -711,7 +711,7 @@ langBtns.forEach(btn => {
                 instruction: 'Click the lock', 
                 instruction1: 'to open the invitation',
                 heros1: 'Wedding Invitation',
-                heros2: 'August 7, 2026 | 14:00',
+                heros2: 'June 6, 2026 | 14:00',
                 herodate: '«And He united their hearts» Al-Anfal, 63',
                 timerlabel: 'TIME REMAINING UNTIL THE WEDDING',
                 unit11: 'days',
@@ -723,7 +723,7 @@ langBtns.forEach(btn => {
                 quote11: 'We wish to celebrate this day, which is so dear to us, together with you. We would be delighted to have you share in our joy.',
                 cal11: 'COUNTING DAYS',
                 cal22: 'Wedding Calendar',
-                cal33: 'AUGUST 2026',
+                cal33: 'JUNE 2026',
                 cale1: 'Mon',
                 cale2: 'Tue',
                 cale3: 'Wed',
@@ -738,7 +738,7 @@ langBtns.forEach(btn => {
                 detcd4: '«NURU-DUR» Restaurant, Fergana region, Baghdad district, Dormancha town, Buyuk Ipak Yoli street',
                 detcd5: 'Open on map →',
                 detcd6: 'Time',
-                detcd7: 'August 7, 2026, 14:00',
+                detcd7: 'June 6, 2026, 14:00',
                 detcd8: 'Doors open from 13:30',
                 detcd9: 'Dress Code',
                 detcd10: 'Formal, preferably light colors',
@@ -777,7 +777,7 @@ langBtns.forEach(btn => {
                 share33: 'Share the invitation with your loved ones — they are also invited to our celebration!',
                 share44: 'Copy',
                 share55: 'Link copied!',
-                date11: 'August 7, 2026 | 14:00',
+                date11: 'June 6, 2026 | 14:00',
                 date22: 'Thank you for being with us on this most beautiful day!'
             }
         };
@@ -1091,7 +1091,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let clickCount = 0;
     let lastClickTime = 0;
 
-    const PASSWORD = "0706"; // ← задай свой пароль
+    const PASSWORD = "0606"; // ← задай свой пароль
 
     if (footerTrigger && guestSection) {
         footerTrigger.addEventListener('click', () => {
